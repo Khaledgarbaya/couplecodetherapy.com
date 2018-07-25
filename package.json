@@ -1,0 +1,51 @@
+{
+  "name": "couplecodetherapy.com",
+  "version": "0.0.1",
+  "description": "couplecodetherapy.com website built with gatsby",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "postbuild": "subfont public --inline-css --inline-fonts --in-place --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khaledgarbaya/couplecodetherapy.com.git"
+  },
+  "keywords": [
+    "gatsby",
+    "couplecodetherapy",
+    "contentful",
+    "website"
+  ],
+  "author": "Khaled Garbaya <khaledgarbaya@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khaledgarbaya/couplecodetherapy.com/issues"
+  },
+  "dependencies": {
+    "gatsby": "next",
+    "gatsby-image": "^2.0.0-beta.3",
+    "gatsby-plugin-google-analytics": "next",
+    "gatsby-plugin-offline": "next",
+    "gatsby-plugin-react-helmet": "^3.0.0-beta.2",
+    "gatsby-plugin-sass": "^2.0.0-beta.2",
+    "gatsby-plugin-typography": "next",
+    "gatsby-source-contentful": "next",
+    "gatsby-transformer-remark": "next",
+    "google-map-react": "^1.0.5",
+    "lodash": "^4.16.4",
+    "node-sass": "^4.9.2",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-helmet": "^5.2.0",
+    "react-typography": "^0.16.3",
+    "slash": "^2.0.0",
+    "typography": "^0.16.7",
+    "typography-breakpoint-constants": "^0.15.0"
+  },
+  "homepage": "https://github.com/Khaledgarbaya/couplecodetherapy.com#readme",
+  "devDependencies": {
+    "subfont": "^3.3.0"
+  }
+}

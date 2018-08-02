@@ -33,8 +33,8 @@ function Footer({...props}) {
       <br />
       <br />
       {'  '}
-      <a href="http://www.netlify.com">
-        <img src="http://www.netlify.com/img/global/badges/netlify-color-bg.svg"/>
+      <a href="https://www.netlify.com">
+        <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg"/>
       </a>
     </div>
   );

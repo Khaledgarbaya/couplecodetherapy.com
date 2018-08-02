@@ -1,7 +1,7 @@
 ---
 title: "Getting into web development"
 number: 0
-url: http://traffic.libsyn.com/couplecodetherapy/couple_code_therapz_ep1.mp3
+url: https://traffic.libsyn.com/couplecodetherapy/couple_code_therapz_ep1.mp3
 slug: "therapies/getting-into-web-development"
 date: "2018-01-08"
 type: "show"

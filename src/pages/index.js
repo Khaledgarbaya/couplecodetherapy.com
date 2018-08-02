@@ -7,6 +7,7 @@ import About from '../components/about'
 import Footer from '../components/footer'
 import { graphql } from 'gatsby'
 import SEO from '../components/seo'
+import Subscribe from '../components/subscribe'
 
 function index({ data }) {
   const latestShow = data.allMarkdownRemark.edges[0].node
@@ -20,6 +21,7 @@ function index({ data }) {
         }
       />
       <Header />
+      <Subscribe />
       <Nav show={{title: latestShow.frontmatter.title, url: latestShow.frontmatter.url}} />
       <div className="blog-posts section">
         <h1 className="blog-posts__header section__header h1">Latest therapies</h1>

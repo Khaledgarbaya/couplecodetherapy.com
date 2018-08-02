@@ -1,8 +1,12 @@
 .show {
   grid-column: 1/-1;
+  padding: 1em;
   display: grid;
   max-width: 1000px;
   margin: 200px auto;
+}
+.show p {
+  margin: 1em 0;
 }
 .post__meta {
   color: #333;

@@ -14,7 +14,7 @@ function Show({node}) {
             {node.excerpt}
           </div>
         </div>
-        <img className="blog-posts__img" src="http://picsum.photos/200/200" alt="" />
+        <img className="blog-posts__img" src="/couple_code_therapy_logo_250.png" alt="" />
       </div>
   );
 }

@@ -22,7 +22,7 @@ function index({ data }) {
       <Header />
       <Nav show={{title: latestShow.frontmatter.title, url: latestShow.frontmatter.url}} />
       <div className="blog-posts section">
-        <h2 className="blog-posts__header section__header h1">Latest therapies</h2>
+        <h1 className="blog-posts__header section__header h1">Latest therapies</h1>
         { data.allMarkdownRemark.edges.map((edge, index)=> <Show node={edge.node} key={index}/>) }
       </div> 
       <Footer />

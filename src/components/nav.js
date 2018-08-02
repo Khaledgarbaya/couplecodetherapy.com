@@ -9,7 +9,6 @@ function Nav({show}) {
       <ul className="main-nav__list">
         <li className="main-nav__item"><Link to={'/'}>Home</Link></li>
         <li className="main-nav__item"><Link to={'/contact'}>Contact</Link></li>
-        <li className="main-nav__item"><Link to={'/about'}>About us</Link></li>
       </ul>
     </nav>
   );

@@ -6,11 +6,19 @@ import Show from '../components/show'
 import About from '../components/about'
 import Footer from '../components/footer'
 import { graphql } from 'gatsby'
+import SEO from '../components/seo'
 
 function index({ data }) {
   const latestShow = data.allMarkdownRemark.edges[0].node
   return (
     <Layout>
+    <SEO
+        key={`seo-home`}
+        postData={
+          {
+          }
+        }
+      />
       <Header />
       <Nav show={{title: latestShow.frontmatter.title, url: latestShow.frontmatter.url}} />
       <div className="blog-posts section">

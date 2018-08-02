@@ -6,7 +6,7 @@ function Show({node}) {
   return (
       <div className="blog-posts__item">
         <div className="blog-posts__content">
-          <h2 className="blog-posts__title"><Link to={`/${node.frontmatter.slug}`}>{node.frontmatter.title}</Link></h2>
+          <Link to={`/${node.frontmatter.slug}`}><h2 className="blog-posts__title">{node.frontmatter.title}</h2></Link>
           <span className="post__meta">
             <time>{ node.frontmatter.date }</time>
           </span>

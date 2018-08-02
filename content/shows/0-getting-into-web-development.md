@@ -1,5 +1,5 @@
 ---
-title: "Getting into web development"
+title: "What does it take to get into webdevelopment"
 number: 0
 url: https://traffic.libsyn.com/couplecodetherapy/couple_code_therapz_ep1.mp3
 slug: "therapies/getting-into-web-development"

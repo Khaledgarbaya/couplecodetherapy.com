@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  font-family: $font_family_text;
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: calc(14px + 0.25vw);
+  position: relative;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 700;
+  font-family: $font_family_heading;
+}
+.h1,
+h1 {
+  font-size: calc(2.7em + 0.5vw);
+  margin-top: 0;
+  line-height: 1.3;
+}

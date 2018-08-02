@@ -1,0 +1,61 @@
+.show {
+  grid-column: 1/-1;
+  display: grid;
+  max-width: 1000px;
+  margin: 200px auto;
+}
+.post__meta {
+  color: #333;
+  font-size: .8em;
+  margin-top: 0;
+  margin-bottom: 2em;
+  border-bottom: 1px solid #ddd;
+}
+.show>p {
+  line-height: 1.8;
+}
+.show>img {
+  max-width: 100%;
+}
+.show a {
+  color: black;
+  text-decoration: underline wavy $light_blue;
+}
+.show>h2 {
+  font-size: 80px;
+  font-style: italic;
+  font-weight: 100;
+  margin: 0;
+}
+.show>figure {
+  margin: 0;
+  grid-column: 1 / -1;
+}
+.show>figure>img{
+  box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+}
+figcaption {
+  font-size: 10px;
+}
+.show>blockquote {
+  grid-column: 1 / -1;
+  font-size: 60px;
+  font-style: italic;
+  text-align: center;
+  margin: 0;
+}
+.tip {
+  background: #FAFAFA;
+  padding: 10px;
+  grid-row: span 5;
+  align-self: start;
+}
+.tip-left {
+  grid-column: 1 / span 2;
+  text-align: right;
+  border-right: 2px solid $light_blue;
+}
+.tip-right {
+  grid-column: span 1 / -1;
+  border-left: 2px solid $light_blue;
+}

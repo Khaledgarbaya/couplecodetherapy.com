@@ -6,6 +6,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import rehypeReact from "rehype-react"
 import SEO from '../components/seo'
+import Subscribe from '../components/subscribe'
 
 const renderAst = new rehypeReact({
   createElement: React.createElement
@@ -22,6 +23,7 @@ function index({data}) {
         isBlogPost
       />
       <Header />
+      <Subscribe />
       <Nav show={ { title: show.frontmatter.title, url: show.frontmatter.url } } />
       <div className="show">
         {renderAst(show.htmlAst)}

@@ -5,7 +5,7 @@ function Footer({...props}) {
     <div className="footer">
       <small>
         <strong>
-          © {new Date().getUTCFullYear()} Copyright Couple code therapy. All rights
+          © {new Date().getUTCFullYear()} Copyright Khaled Garbaya & Amal Nasri. All rights
           reserved.
         </strong>
       </small>

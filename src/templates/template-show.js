@@ -7,6 +7,7 @@ import Footer from '../components/footer'
 import rehypeReact from "rehype-react"
 import SEO from '../components/seo'
 import Subscribe from '../components/subscribe'
+import Helmet from 'react-helmet'
 
 const renderAst = new rehypeReact({
   createElement: React.createElement
@@ -22,6 +23,9 @@ function index({data}) {
         postData={show}
         isBlogPost
       />
+      <Helmet>
+        <title>Couple Code therapy | {show.frontmatter.title}</title>
+      </Helmet>
       <Header />
       <Subscribe />
       <Nav show={ { title: show.frontmatter.title, url: show.frontmatter.url } } />

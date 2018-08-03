@@ -8,6 +8,7 @@ import Footer from '../components/footer'
 import { graphql } from 'gatsby'
 import SEO from '../components/seo'
 import Subscribe from '../components/subscribe'
+import Helmet from 'react-helmet';
 
 function index({ data }) {
   const latestShow = data.allMarkdownRemark.edges[0].node
@@ -20,6 +21,9 @@ function index({ data }) {
           }
         }
       />
+      <Helmet>
+        <title>Couple Code therapy | Therapies for Teaching web development for absolute beginner</title>
+      </Helmet>
       <Header />
       <Subscribe />
       <Nav show={{title: latestShow.frontmatter.title, url: latestShow.frontmatter.url}} />

@@ -18,6 +18,9 @@ const ContactPage = ({data}) => {
           }
         }
       />
+      <Helmet>
+        <title>Couple Code therapy | Contact </title>
+      </Helmet>
       <Header />
       <Nav show={{title: latestShow.frontmatter.title, url: latestShow.frontmatter.url}} />
       <div className='contact section'>

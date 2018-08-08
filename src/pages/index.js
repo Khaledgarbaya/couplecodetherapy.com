@@ -3,7 +3,6 @@ import Layout from '../components/layout'
 import Nav from '../components/nav'
 import Header from '../components/header'
 import Show from '../components/show'
-import About from '../components/about'
 import Footer from '../components/footer'
 import { graphql } from 'gatsby'
 import SEO from '../components/seo'
@@ -22,7 +21,7 @@ function index({ data }) {
         }
       />
       <Helmet>
-        <title>Couple Code therapy | Therapies for Teaching web development for absolute beginner</title>
+        <title>Couple Code therapy | Therapies for teaching web development for absolute beginner</title>
       </Helmet>
       <Header />
       <Subscribe />

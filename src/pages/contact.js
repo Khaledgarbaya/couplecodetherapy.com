@@ -26,10 +26,9 @@ const ContactPage = ({data}) => {
       <div className='contact section'>
         <h1>Contact</h1>
         <p>Wanna say hi? or have a question</p>
-        <form name='contact' className='contact__form' method='post' data-netlify-recaptcha data-netlify>
+        <form name='contact' className='contact__form' method='post' data-netlify>
 
           <input type="hidden" name="form-name" value="contact" />
-          <label aria-hidden >Don’t fill this out if you're human: <input name="bot-field" /></label>
           <label for='name'>
             Name
             <input id='name' name='name' type='text' />
@@ -42,7 +41,6 @@ const ContactPage = ({data}) => {
         Message
         <textarea id='name' name='message'/>
       </label>
-      <div data-netlify-recaptcha></div>
       <button>Send</button>
       </form>
       </div>

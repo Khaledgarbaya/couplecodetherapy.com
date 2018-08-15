@@ -1,7 +1,7 @@
 ---
 title: "Introduction to HTML"
 number: 1
-url: http://traffic.libsyn.com/couplecodetherapy/couple_code_therapy_ep2.mp3
+url: https://traffic.libsyn.com/couplecodetherapy/couple_code_therapy_ep2.mp3
 slug: "therapies/introduction-to-html"
 date: "2018-15-08"
 type: "show"

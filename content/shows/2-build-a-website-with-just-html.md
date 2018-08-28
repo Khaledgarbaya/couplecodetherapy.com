@@ -13,6 +13,9 @@ tags:
 
 # Build a website with just HTML
 
+In this therapy, Amal builds her own website with just HTML.
+We'll be using visual studio code as the main editor along with the live server extension to have auto refresh whenever we change something in the website and save.
+
 ## Show Notes
 
 ### Downloading visual studio code

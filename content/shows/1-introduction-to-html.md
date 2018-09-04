@@ -3,7 +3,7 @@ title: "Introduction to HTML"
 number: 1
 url: https://anchor.fm/couple-code-therapy/embed/episodes/Introduction-to-HTML-e216gd
 slug: "therapies/introduction-to-html"
-date: "2018-15-08"
+date: "2018-08-15"
 type: "show"
 publish: true
 tags:

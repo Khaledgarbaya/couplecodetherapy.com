@@ -3,7 +3,7 @@ title: "What does it take to get into webdevelopment"
 number: 0
 url: https://anchor.fm/couple-code-therapy/embed/episodes/What-does-it-take-to-get-into-web-development-e216gc
 slug: "therapies/getting-into-web-development"
-date: "2018-01-08"
+date: "2018-08-01"
 type: "show"
 publish: true
 tags:

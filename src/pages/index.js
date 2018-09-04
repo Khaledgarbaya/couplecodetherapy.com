@@ -21,7 +21,7 @@ function index({ data }) {
         }
       />
       <Helmet>
-        <title>Couple Code therapy | Therapies for teaching web development for absolute beginner</title>
+        <title>Code Therapies for teaching web development for absolute beginner | Couple Code therapy</title>
       </Helmet>
       <Header />
       <Subscribe />

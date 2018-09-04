@@ -24,7 +24,7 @@ function index({data}) {
         isBlogPost
       />
       <Helmet>
-        <title>Couple Code therapy | {show.frontmatter.title}</title>
+        <title>{show.frontmatter.title} | Couple Code Therapy</title>
       </Helmet>
       <Header />
       <Subscribe />

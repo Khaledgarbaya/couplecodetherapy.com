@@ -1,7 +1,7 @@
 ---
 title: "What does it take to get into webdevelopment"
 number: 0
-url: https://traffic.libsyn.com/couplecodetherapy/couple_code_therapz_ep1.mp3
+url: https://anchor.fm/couple-code-therapy/embed/episodes/What-does-it-take-to-get-into-web-development-e216gc
 slug: "therapies/getting-into-web-development"
 date: "2018-01-08"
 type: "show"

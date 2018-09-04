@@ -1,7 +1,7 @@
 ---
 title: "Build a website with just HTML"
 number: 2
-url: https://traffic.libsyn.com/preview/couplecodetherapy/Couple_Code_Therapy_EP3.mp3
+url: https://anchor.fm/couple-code-therapy/embed/episodes/Build-a-website-with-just-HTML-e24prj
 slug: "therapies/build-a-website-with-just-html"
 date: "2018-29-08"
 type: "show"

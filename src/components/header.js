@@ -11,18 +11,19 @@ function Header({...props}) {
       </div>
       <div className='header__hosts'>
         <div className="header__host">
-          <img src="/khaled.jpg" alt="Khaled Garbaya profile picture" className="avatar" />
+          <img src="/khaled.jpg" alt="Khaled Garbaya avatar" className="avatar" />
           <h3>Khaled Garbaya</h3>
           <a target="_blank" 
             href="https://twitter.com/khaled_garbaya" 
             className="person__social person__social--twitter">@khaled_garbaya</a>
-          <p>Software engineer and a <a target="_blank" href="https://khaledgarbaya.net/courses">web development instructor</a></p>
+          <p>Software engineer and a <a target="_blank" rel="noopener" href="https://khaledgarbaya.net/courses">web development instructor</a></p>
         </div>
         <div className="header__host">
-          <img src="/amal.jpg" alt="Amal Nasri profile picture" className="avatar" />
+          <img src="/amal.jpg" alt="Amal Nasri avatar" className="avatar" />
           <h3>Amal Nasri</h3>
           <a target="_blank" 
             href="https://twitter.com/amalnasri" 
+            rel="noopener"
             className="person__social person__social--twitter">@amalnasri</a>
           <p>Electronic engineer and a <a target="_blank" href="https://chocolate-free.com">foodblogger</a></p>
         </div>

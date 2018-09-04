@@ -2,7 +2,7 @@ module.exports = {
   title: 'Couple Code therapy, learning webdevelopment for absolute beginner',
   description: '',
   url: 'https://couplecodetherapy.com',
-  image: 'https://couplecodetherapy.com/logo.png',
+  image: 'https://couplecodetherapy.com/og/og-image.jpg',
   logo: 'https://couplecodetherapy.com/icons/android-chrome-512x512.png',
   twitter: '@cplecodetherapy',
   fbAppID: '',

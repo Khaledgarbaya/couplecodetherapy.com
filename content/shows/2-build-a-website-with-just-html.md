@@ -3,7 +3,7 @@ title: "Build a website with just HTML"
 number: 2
 url: https://anchor.fm/couple-code-therapy/embed/episodes/Build-a-website-with-just-HTML-e24prj
 slug: "therapies/build-a-website-with-just-html"
-date: "2018-29-08"
+date: "2018-08-29"
 type: "show"
 publish: true
 tags:

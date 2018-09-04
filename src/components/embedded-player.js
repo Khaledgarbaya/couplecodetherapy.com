@@ -1,6 +1,6 @@
 import React from 'react';
 
-function EmbeddedPlayer({url}) {
+function EmbeddedPlayer({show: {url}}) {
   return (
     <iframe 
       className="embedded-player"

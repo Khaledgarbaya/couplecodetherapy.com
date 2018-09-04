@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with CSS"
 number: 3
-url: https://anchor.fm/couple-code-therapy/embed/episodes/Getting-Started-with-CSS-e24prj
+url: https://anchor.fm/couple-code-therapy/embed/episodes/Getting-Started-with-CSS-e257pc
 slug: "therapies/getting-started-with-css"
 date: "2018-09-05"
 type: "show"

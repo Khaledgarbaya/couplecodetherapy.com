@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build",
-    "postbuild": "subfont public --inline-css --inline-fonts --in-place --debug"
+    "build": "gatsby build"
   },
   "repository": {
     "type": "git",

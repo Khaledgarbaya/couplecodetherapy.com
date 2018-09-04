@@ -10,6 +10,9 @@ function Subscribe() {
         <li className="subscribe__link subscribe__link--spotify">
           <a target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/show/1kKWGqKj41otz3V4b4TNOv?si=7-_SkScwSOegbUksdm0U9A">Spotify</a>
         </li>
+        <li className="subscribe__link subscribe__link--anchor">
+          <a target="_blank" rel="noopener noreferrer" href="https://anchor.fm/couple-code-therapy">Anchor</a>
+        </li>
       </ul>
     </div>
   );

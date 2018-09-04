@@ -77,7 +77,6 @@
 }
 
 .subscribe__link--subscribe a:before {
-  width: 0;
   box-shadow: none;
   margin: 0;
 }
@@ -137,6 +136,14 @@
 .subscribe__link--googleplay a:before {
   background-image: url("/static/icons/googleplay.png");
   background-color: #fff;
+}
+
+.subscribe__link--anchor a {
+  background: linear-gradient(to bottom, #A54DFB 0%, #8841F8 100%);
+}
+
+.subscribe__link--anchor a:before {
+  background-image: url("/static/icons/anchor.png");
 }
 
 .subscribe__link--spotify a {

@@ -22,9 +22,9 @@ My Lovely partner continues using CSS to improve her website look and feel, We'l
 
 We'll cover :
 
-How to style navigations in CSS
-CSS layout techniques
-Make responsive containers
+- How to style navigations in CSS
+- CSS layout techniques
+- Make responsive containers
 
 ### Links
  

@@ -18,6 +18,10 @@ This is exciting, In Couple Code Therapy Episode Five
 
 My Lovely partner continues using CSS to improve her website look and feel, We'll cover how to style navigations in a website and some layout techniques to center containers
 
+Here's a preview of the progress we made 
+
+![Couple Code Therapy website example](https://pbs.twimg.com/media/Dmwmtj0XcAAd-tt.jpg:large)
+
 ## Show Notes
 
 We'll cover :

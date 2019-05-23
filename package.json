@@ -51,7 +51,7 @@
     "rehype-react": "^3.0.3",
     "slash": "^2.0.0",
     "typography": "^0.16.7",
-    "typography-breakpoint-constants": "^0.15.0"
+    "typography-breakpoint-constants": "^0.16.19"
   },
   "homepage": "https://github.com/Khaledgarbaya/couplecodetherapy.com#readme",
   "devDependencies": {

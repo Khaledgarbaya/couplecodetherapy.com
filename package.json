@@ -48,7 +48,7 @@
     "react-dom": "^16.3.1",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.3",
-    "rehype-react": "^3.0.3",
+    "rehype-react": "^4.0.1",
     "slash": "^2.0.0",
     "typography": "^0.16.7",
     "typography-breakpoint-constants": "^0.15.0"
